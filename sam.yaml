@@ -10,7 +10,7 @@ Resources:
       Runtime: java8
       FunctionName: spring-lamda-sample
       CodeUri: target/club-0.0.1-SNAPSHOT-lambda-package.zip
-      MemorySize: 1512
+      MemorySize: 1024
       Policies: AWSLambdaBasicExecutionRole
       Timeout: 60
       Events:

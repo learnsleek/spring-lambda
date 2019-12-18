@@ -7,8 +7,9 @@ Resources:
     Properties:
       Handler: com.moneyclub.LambdaHandler::handleRequest
       Runtime: java8
-      CodeUri: s3://spring-boot-amit1/53f00e342eb6598be1ae13075ffb67ed
-      MemorySize: 1512
+      FunctionName: spring-lamda-sample
+      CodeUri: s3://spring-boot-amit1/652ae688876d4d2e629b6a53f18a6fa7
+      MemorySize: 1024
       Policies: AWSLambdaBasicExecutionRole
       Timeout: 60
       Events:
